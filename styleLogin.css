@@ -11,6 +11,9 @@ body{
   background-size: cover;
   background-position: center;
 }
+header{
+  z-index: 1;
+}
 li{
   list-style: none;
 }
