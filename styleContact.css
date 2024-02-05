@@ -143,7 +143,18 @@ header{
     }
 
   }
-
+  @media (max-width:360px){
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+}
+@media (max-width:414px){
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+}
 
 
 .content{
@@ -199,8 +210,8 @@ form{
 }
 footer{
     position: absolute;
-    bottom: 50px;
-    left: 230px;
+    bottom: 7%;
+    left: 10%;
   }
   footer ul {
     margin: 0;
