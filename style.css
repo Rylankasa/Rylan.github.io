@@ -8,6 +8,7 @@ body{
     height: 100vh;
     background-color: #000;
     background-image: url(background6.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -124,9 +125,10 @@ header{
 
 .content{
     display: flex;
-    align-items: center;  
+    align-items: center;
+    width: 95%;  
     height: 500px;
-    margin-left:150px;
+    margin-left:5%;
 }
 .main{
     width: 40%;

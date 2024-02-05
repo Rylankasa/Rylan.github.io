@@ -143,21 +143,17 @@ header{
     }
 
   }
+
+
+
 .content{
     display: flex;
     align-items: center;
-    padding-top: 100px;
-    padding-left: 100px;
-}
-.review{
-    width: 40%;
-}
-.review>img{
-    width: 500px;
-    height: 300px;
+    padding-top: 10%;
+    padding-left: 10%;
 }
 .group{
-    width: 60%;
+    width: 50%;
 }
 .group>h2{
     color: black;
@@ -177,9 +173,7 @@ form{
     height: 30px;
     border: 1px solid orangered;
     border-radius: 5px;
-}
-.form-group1>input::placeholder{
-    padding-left: 10px;
+    padding: 5px;
 }
 .form-group2{
     margin-top: 20px;
