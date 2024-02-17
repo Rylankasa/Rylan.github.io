@@ -15,10 +15,6 @@ body{
 li{
     list-style: none;
 }
-.logo a{
-    font-size: 30px;
-    cursor: default;
-}
 a{
     text-decoration: none;
     color: #fff;
@@ -27,6 +23,64 @@ a{
 a:hover{
     color: orange;
 }
+.bn29 {
+    font-size: 30px;
+    border: none;
+    padding: 5px 20px;
+    outline: none;
+    color: white;
+    font-style: 1.2em;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    background: none;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+  }
+  
+  .bn29:before,
+  .bn29:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10em;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 105%;
+    height: 105%;
+    content: "";
+    z-index: -2;
+    background-size: 400% 400%;
+    background: linear-gradient(
+      60deg,
+      #f79533,
+      #f37055,
+      #ef4e7b,
+      #a166ab,
+      #5073b8,
+      #1098ad,
+      #07b39b,
+      #6fba82
+    );
+  }
+  
+  .bn29:before {
+    -webkit-filter: blur(7px);
+    filter: blur(7px);
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-animation: pulse 10s infinite ease;
+    animation: pulse 10s infinite ease;
+  }
+  
+  .bn29:after {
+    -webkit-filter: blur(0.3px);
+    filter: blur(0.3px);
+  }
+  
+  .bn29:hover:before {
+    width: 115%;
+    height: 115%;
+  }
 header{
     position: relative;
     padding: 0 2rem;
@@ -159,20 +213,84 @@ p{
     font-size: 16px;
     color: white;
 }
-.tombol-group>button{
-    width: 120px;
-    height: 40px;
-    border: 3px solid orange;
+.bn5 {
+    position: absolute;
+    top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
     border-radius: 10px;
-    background-color: white;
-    color: red;
-    margin-right: 30px;
-    transition: .5s;
-}
-.tombol-group>button:hover{
-    color: orange;
-    transform: translateY(-10px);
-}
+  }
+  
+  .bn5:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowingbn5 20s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowingbn5 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .bn5:active {
+    color: #000;
+  }
+  
+  .bn5:active:after {
+    background: transparent;
+  }
+  
+  .bn5:hover:before {
+    opacity: 1;
+  }
+  
+  .bn5:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #191919;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
 footer{
   position: absolute;
   bottom: 7%;
