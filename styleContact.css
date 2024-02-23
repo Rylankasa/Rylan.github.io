@@ -7,7 +7,7 @@
 body{
     height: 100vh;
     background-color: #000;
-    background-image: url(background4.jpg);
+    background-image: url(background13.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -225,10 +225,11 @@ header{
     width: 50%;
 }
 .group>h2{
-    color: black;
+    color: white;
 }
 .group>p{
     margin: 10px 0px;
+    color: white;
 }
 .formbig{
     display: flex;

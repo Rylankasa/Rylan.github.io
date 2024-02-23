@@ -7,7 +7,7 @@
 body{
     height: 100vh;
     background-color: #000;
-    background-image: url(background6.jpg);
+    background-image: url(background11.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -191,7 +191,7 @@ header{
 .content{
     display: flex;
     align-items: center;
-    width: 95%;  
+    width: 85%;  
     height: 500px;
     margin-left:5%;
 }
@@ -211,7 +211,7 @@ h3{
 }
 p{
     font-size: 16px;
-    color: white;
+    color: black;
 }
 .bn5 {
     position: absolute;
