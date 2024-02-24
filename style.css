@@ -189,35 +189,36 @@ header{
 }
 
 .content{
-    display: flex;
-    align-items: center;
-    width: 85%;  
-    height: 500px;
-    margin-left:5%;
+  display: flex;
+  align-items: center;
+  width: 100%;  
+  height: 500px;
+  margin-left:5%;
 }
 .main{
-    width: 60%;
-    margin-top: 90px;
+  width: 100%;
+  margin-top: 90px;
 }
 h1{
-    font-size: 60px;
+  font-size: 60px;
 }
 h1>span{
-    color: orange;
-    font-size: 60px;
+  color: orange;
+  font-size: 60px;
 }
 h3{
-    font-size: 30px;
+  font-size: 30px;
 }
 p{
-    font-size: 16px;
-    color: black;
+  width: 40%;
+  font-size: 16px;
+  color: black;
 }
 .bn5 {
     position: absolute;
     top: 20px;
     font-size: 18px;
-    padding: 10px 20px;
+    padding: 0.7% 1%;
     border: none;
     outline: none;
     color: #000;
