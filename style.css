@@ -193,7 +193,7 @@ header{
   align-items: center;
   width: 100%;  
   height: 500px;
-  margin-left:5%;
+  padding-left:5%;
 }
 .main{
   width: 100%;
