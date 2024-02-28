@@ -402,10 +402,15 @@ select{
   .button{
     display: flex;
     justify-content: center;
+    margin-top: 5px;
   }
-  .button>button{
-    width: 40%;
+  .buttonn p{
+    color: #07b39b;
+  }
+  .button form button{
+    width: 100%;
     height: 35px;
+    padding: 0px 50px;
     border: 1px solid white;
     border-radius: 20px;
     margin: 10px 0px;
